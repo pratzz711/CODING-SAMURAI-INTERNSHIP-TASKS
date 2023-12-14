@@ -35,7 +35,7 @@ def display_data(weather_data):
         print("Unable to fetch weather data. Please check your input or try again later.")
 
 if __name__ == "__main__":
-    api_key = '2f99076cd56980060d392dc64ecf8165'
+    api_key = 'YOUR_API_KEY'
     city = input("Enter city name: ")
     unit = input("Enter C for celsius and F for farenheit: ").lower()
 
