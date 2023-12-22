@@ -39,8 +39,8 @@ class ToDo:
             if task['ID'] == id:
                 self.tasks.remove(task)
                 print("\nTask is Delelted\n")
-            else:
-                print("\nTask not found\n")
+                return
+        print("\nTask not found\n")
 
     def save_tasks(self):
         with open('tasks.txt', 'w') as file:
@@ -65,11 +65,10 @@ if __name__ == "__main__":
     todoList = ToDo()
 
     while True:
-        print("1. Add Task") # done
-        print("2. Display Tasks") #done
-        print("3. Change Status") #done
+        print("1. Add Task") 
+        print("2. Display Tasks") 
+        print("3. Change Status") 
         print("4. Delete Task")
-        # Load tasks from another file pending
         print("5. Save and Exit")
         print("6. Load Tasks")
 

@@ -1,2 +1,1 @@
-1 | Demo task 1 | This is demo | 0
-2 | introduction | Hello this is Pratiksha | 1
+1 | Demo | This is demo task | 0
